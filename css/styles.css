@@ -1,0 +1,171 @@
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+    
+}
+nav{
+    color:white;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:10rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+div.container-fluid{
+    padding-top:3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 13%;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-weight:bold;
+    color:#fff;
+    font-weight:bold;
+    font-size:10rem;
+}
+nav.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding:0 18px;
+
+}
+.nav-link{
+    font-size:1.2rem;
+}
+
+/* buttnos */
+button.download-button{
+    margin:5%  3% 5% 0;
+}
+.title-image{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size:10rem;
+    line-height:1.5;
+    font-weight:bold;
+
+}
+
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align:center;
+}
+p{
+  color:#afafaf
+}
+.fas{
+ color: #ff4c68;
+ margin-bottom:1rem;
+}
+.fas:hover{
+    color:rgb(224, 72, 143)
+}
+/* Testimonial */
+#testimonials{
+    padding:7% 15%;
+    text-align:center;
+    background-color: #ff4c68;
+    color:#fff;
+
+}
+h2{
+    font-size:8rem;
+    line-height:1.5;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight:bold;
+}
+.testimonial-image{
+    width:10%;
+    border-radius:50%;
+    margin:20px;
+}
+#press{
+    background-color:#ee677b;
+    text-align:center;
+    padding-bottom:3%;
+    padding-top:3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+/* pricing section */
+#pricing{
+    padding:100px;
+    /* max-height: 80px; */
+}
+.pricing-column{
+    padding:3% 3%;
+    text-align:center;
+}
+#dog{
+    text-align:center;
+    font-weight:bolder;
+}
+
+#ddog{
+    text-align:center;
+    font-weight:bolder;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        transform:rotate(0);
+        position:static;
+
+    }
+}
+
+/* call to action */
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+}
+#cta h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:5rem;
+    line-height:1.5;
+    font-weight:bold;
+    color:#fff;
+}
+.cta-button{
+    margin:7% 2%;
+}
+
+#footer{
+    text-align:center;
+    margin:7% 7%;
+}
+.tuke{
+    color:#000;
+}
+.fuke{
+    padding:3% 2%;
+
+}
